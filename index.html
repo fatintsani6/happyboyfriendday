@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAPPYBOYFRIENDDAY | Untuk Naufal</title>
+  <meta name="description" content="Surat cinta Happy Boyfriend Day dari Gisel untuk Naufal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Petit+Formal+Script&family=Jost:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/dark-romantic.css" />
+  <link rel="stylesheet" href="css/performance.css" />
+  <link rel="stylesheet" href="css/gpu-optimization.css" />
+  <!-- Device tier detection: runs synchronously so later scripts can read window.DeviceTier -->
+  <script src="js/device-tier-system.js"></script>
+</head>
+<body>
+
+  <!-- ===== GLOBAL CINEMATIC BACKGROUND (fixed, z=-10, one unified layer) ===== -->
+  <div id="global-bg-layer" aria-hidden="true"></div>
+
+  <!-- ===== INTRO SCENE ===== -->
+  <div id="intro-scene">
+    <canvas id="particle-canvas-intro"></canvas>
+    <div id="gift-wrapper">
+      <div id="gift-container" onclick="openGift()">
+        <div id="gift-box">
+          <div class="gift-lid">
+            <div class="ribbon-h"></div>
+            <div class="ribbon-v"></div>
+            <div class="bow">
+              <div class="bow-left"></div>
+              <div class="bow-right"></div>
+              <div class="bow-center"></div>
+            </div>
+          </div>
+          <div class="gift-body">
+            <div class="ribbon-body-h"></div>
+            <div class="ribbon-body-v"></div>
+          </div>
+        </div>
+        <p class="gift-hint">✨ sentuh untuk membuka ✨</p>
+      </div>
+      <div id="bloom-container"></div>
+    </div>
+    <div id="petal-rain-intro"></div>
+    <div id="intro-overlay"></div>
+  </div>
+
+  <!-- Fixed ambient layers — live at body level so they cover ALL sections -->
+  <div class="cinematic-vignette"></div>
+  <canvas id="particle-canvas"></canvas>
+  <div id="falling-petals"></div>
+
+  <!-- ===== MAIN WEBSITE ===== -->
+  <div id="main-site" class="hidden">
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">happy boyfriend day, nopal</p>
+        <h1 class="hero-title">
+          <span class="line1">Untuk Nopal,</span>
+          <span class="line2 italic">Kesayangannya Gisel</span>
+        </h1>
+        <p class="hero-sub">Setiap kelopak menyimpan sedikit cerita tentang betapa berartinya kamu buat aku.</p>
+        <div class="hero-flowers">
+          <svg class="hero-flower" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <g class="flower-group">
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,182,193,0.85)" class="petal p1"/>
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,182,193,0.85)" class="petal p2" transform="rotate(60,50,50)"/>
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,182,193,0.85)" class="petal p3" transform="rotate(120,50,50)"/>
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,192,203,0.85)" class="petal p4" transform="rotate(180,50,50)"/>
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,192,203,0.85)" class="petal p5" transform="rotate(240,50,50)"/>
+              <ellipse cx="50" cy="30" rx="12" ry="22" fill="rgba(255,192,203,0.85)" class="petal p6" transform="rotate(300,50,50)"/>
+              <circle cx="50" cy="50" r="10" fill="rgba(255,220,180,0.95)"/>
+            </g>
+          </svg>
+        </div>
+        <a href="#message" class="scroll-btn">
+          <span>Gulir untuk membaca suratku</span>
+          <div class="scroll-arrow">↓</div>
+        </a>
+      </div>
+      
+        
+        
+        
+      </div>
+    </section>
+
+    <!-- ===== MESSAGE ===== -->
+    <section id="message">
+      <div class="section-inner">
+        <div class="message-card glass">
+          <div class="card-flowers-top">
+            <span class="inline-flower">🌸</span>
+            <span class="inline-flower delay1">🌺</span>
+            <span class="inline-flower delay2">🌸</span>
+          </div>
+          <p class="msg-label">dari hati gisel</p>
+          <h2 class="msg-title">Happy Boyfriend Day,<br/><em>Nopalku Sayang!</em></h2>
+          <p class="msg-body">Love you, definitely you. I'm so happy cause you're stay here with me with all my lackness so far, and I am so grateful that I found you.</p>
+          <p class="msg-body">Terima kasih telah singgah dalam kehidupan Gisel. Nopal akan selalu menjadi first choice Gisel, walaupun Gisel diberikan pilihan yang lain. Terima kasih sudah memberikan aku tempat singgah yang nyaman. Bahkan kata “rumah” pun kalah dan nggak akan sebanding dengan rasa nyaman yang kamu berikan.</p>
+          <p class="msg-body">I'm so, so happy and very, very lucky. Sebelum ketemu dan kenal kamu, kenapa ya aku merasa hidupku seperti ada yang kurang? Tapi setelah kamu datang ke kehidupanku, hidupku jadi lebih berwarna. Asal kamu tahu ya, Nopal, cinta aku gede banget untuk kamu, bebii! Kalau Nopal nggak mau percaya juga nggak apa-apa, tapi tolong kasih Gisel harapan ya? Harapan supaya nanti kita berdua bisa bersama untuk selamanya, hehe.</p>
+          <p class="msg-body">૮ ˙Ⱉ˙ ა Give me a time, please?! Sayang, kalau nanti kita sudah nggak sama-sama lagi, aku harap kamu jangan pernah lupa sama aku yaa. Aku nggak pernah nyesel bisa kenal dan ketemu kamu di kehidupan ini. You are my world 🌎💘 I'm really excited for this!</p>
+          <p class="msg-body">Let us live our special love story. Let us take care of every problem, from the good to the bad, in the future. We have been the best all this time; you and I always try new things and learn together. Knowing you has been the best thing in my life. I feel so lucky and so loved when I'm with you. 😮‍💨💕</p>
+          <p class="msg-body">You really appreciate my feelings. Even though I still often overthink, you always calm my weary thoughts because you understand my situation. Thank you for “us”, for always taking care of this relationship.</p>
+          <div class="msg-signature">— Selalu sayang kamu, Gisel 🌹</div>
+        </div>
+      </div>
+      <div class="section-petals">
+        <div class="s-petal sp1">🌸</div>
+        <div class="s-petal sp2">🌺</div>
+        <div class="s-petal sp3">🌼</div>
+        <div class="s-petal sp4">🌸</div>
+        <div class="s-petal sp5">🌷</div>
+      </div>
+    </section>
+
+    <!-- ===== REASONS ===== -->
+    <section id="reasons">
+      <div class="section-inner">
+        <p class="section-eyebrow">hal-hal kecil yang berarti</p>
+        <h2 class="section-title">Kenapa Gisel Sayang Nopal</h2>
+        <div class="reasons-grid">
+          <div class="reason-card glass reveal-card"><div class="reason-icon">🏡</div><h3>Tempat ternyaman</h3><p>Sama kamu, Gisel selalu merasa punya tempat untuk pulang.</p></div>
+          <div class="reason-card glass reveal-card delay1"><div class="reason-icon">💫</div><h3>Selalu jadi pilihan</h3><p>Dari semua pilihan, Nopal tetap first choice-nya Gisel.</p></div>
+          <div class="reason-card glass reveal-card delay2"><div class="reason-icon">🌸</div><h3>Mengerti Gisel</h3><p>Kamu selalu berusaha memahami perasaan dan pikiranku.</p></div>
+          <div class="reason-card glass reveal-card delay3"><div class="reason-icon">✨</div><h3>Membuat hidup berwarna</h3><p>Sejak ada kamu, hari-hari Gisel terasa lebih penuh arti.</p></div>
+          <div class="reason-card glass reveal-card delay4"><div class="reason-icon">🌷</div><h3>Mau belajar bersama</h3><p>Kita terus mencoba hal baru dan tumbuh bersama.</p></div>
+          <div class="reason-card glass reveal-card delay5"><div class="reason-icon">💖</div><h3>Karena itu kamu</h3><p>Gisel bersyukur bisa bertemu dan mengenal Nopal.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GARDEN ===== -->
+    <section id="garden">
+      <div class="garden-bg"></div>
+      <div class="section-inner">
+        <p class="section-eyebrow">sedikit bunga untuk orang kesayangan</p>
+        <h2 class="section-title garden-title">Taman Kecil<br/><em>Untuk Nopal</em></h2>
+        <div class="flower-garden">
+          <div class="garden-flower gf1"><div class="gf-bloom">🌹</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Rose</strong><span>Endless Love</span></div></div>
+          <div class="garden-flower gf2"><div class="gf-bloom">🌸</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Cherry Blossom</strong><span>Gentle Beauty</span></div></div>
+          <div class="garden-flower gf3"><div class="gf-bloom">🪷</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Lotus</strong><span>Pure Heart</span></div></div>
+          <div class="garden-flower gf4"><div class="gf-bloom">🌺</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Hibiscus</strong><span>Delicate Passion</span></div></div>
+          <div class="garden-flower gf5"><div class="gf-bloom">🌼</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Daisy</strong><span>True Devotion</span></div></div>
+          <div class="garden-flower gf6"><div class="gf-bloom">🌷</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Tulip</strong><span>Perfect Happiness</span></div></div>
+          <div class="garden-flower gf7"><div class="gf-bloom">🌻</div><div class="gf-stem"></div><div class="gf-tooltip glass"><strong>Sunflower</strong><span>Warmth & Joy</span></div></div>
+        </div>
+        <p class="garden-note">✨ setiap bunga menyimpan doa kecil dari Gisel ✨</p>
+      </div>
+    </section>
+
+    <!-- ===== MEMORIES ===== -->
+    <section id="memories">
+      <div class="section-inner">
+        <p class="section-eyebrow">momen yang ingin kusimpan</p>
+        <h2 class="section-title">Potongan Cerita<br/><em>Kita</em></h2>
+        <div class="gallery-grid">
+          <div class="gallery-card glass gc1"><img src="assets/images/img1.jpeg" class="gallery-img" alt="Momen bersama Nopal"><div class="gallery-caption">my favorite person</div></div>
+          <div class="gallery-card glass gc2"><img src="assets/images/img2.jpeg" class="gallery-img" alt="Kenangan bersama"><div class="gallery-caption">my first choice</div></div>
+          <div class="gallery-card glass gc3"><img src="assets/images/img3.jpeg" class="gallery-img" alt="Momen manis kita"><div class="gallery-caption">my safe place</div></div>
+          <div class="gallery-card glass gc4"><img src="assets/images/img4.jpeg" class="gallery-img" alt="Untuk Nopal"><div class="gallery-caption">always you</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FINALE ===== -->
+    <section id="finale">
+      <canvas id="finale-canvas"></canvas>
+      <div class="finale-inner">
+        <div class="finale-flowers">
+          <span class="ff">🌸</span><span class="ff delay1">🌺</span><span class="ff delay2">🌹</span><span class="ff delay3">🌸</span><span class="ff delay4">🌷</span>
+        </div>
+        <p class="finale-eyebrow">harapan Gisel untuk kita</p>
+        <h2 class="finale-title">Semoga Selalu<br/><em>Ada Kita</em></h2>
+        <p class="finale-body">Nopal, semoga kita terus saling menjaga, melewati hal baik maupun sulit, dan belajar bersama. Terima kasih sudah hadir dan membuat Gisel merasa begitu disayang. Happy Boyfriend Day, sayang. Gisel memilih kamu, hari ini dan seterusnya.</p>
+        <div class="finale-heart"><div class="heart-pulse">💗</div></div>
+        <p class="finale-sig">Dibuat dengan penuh sayang, khusus untuk Nopal 🌸</p>
+      </div>
+    </section>
+
+    <footer><p>🌸 dari Gisel, dengan seluruh rasa sayang 🌸</p></footer>
+  </div>
+
+  <!-- Scripts — tier already set in <head>; engine files load in dependency order -->
+  <script src="js/render-loop.js"></script>
+  <script src="js/particle-pool.js"></script>
+  <script src="js/performance-manager.js"></script>
+  <script src="js/canvas-flower-engine.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/audio-system.js"></script>
+  <script src="js/intro.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
