@@ -25,34 +25,6 @@ const playlist = [
     loop:      true,
     fadeIn:    2.5,
     fadeOut:   2.0
-  },
-  {
-    id:        'song2',
-    title:     'Song Title 2',
-    artist:    'Artist Name',
-    file:      'music/song2.mp3',
-    cover:     'assets/music-cover/song2.jpg',
-    startTime: 0,
-    endTime:   null,
-    loopStart: null,
-    volume:    0.75,
-    loop:      true,
-    fadeIn:    2.5,
-    fadeOut:   2.0
-  },
-  {
-    id:        'song3',
-    title:     'Song Title 3',
-    artist:    'Artist Name',
-    file:      'music/song3.mp3',
-    cover:     'assets/music-cover/song3.jpg',
-    startTime: 0,
-    endTime:   null,
-    loopStart: null,
-    volume:    0.75,
-    loop:      true,
-    fadeIn:    2.5,
-    fadeOut:   2.0
   }
 ];
 
@@ -396,6 +368,10 @@ const UI = (() => {
     playBtn      = root.querySelector('.cp-play-btn');
     prevBtn      = root.querySelector('.cp-prev-btn');
     nextBtn      = root.querySelector('.cp-next-btn');
+    if (playlist.length < 2) {
+      prevBtn.hidden = true;
+      nextBtn.hidden = true;
+    }
     progressFill = root.querySelector('.cp-progress-fill');
     progressDot  = root.querySelector('.cp-progress-dot');
     timeEl       = root.querySelector('.cp-time-cur');
