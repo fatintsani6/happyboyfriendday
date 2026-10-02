@@ -3,7 +3,7 @@
    romantic-flower website
    =============================================================
    Place music at:  music/song1.mp3   etc.
-   Place covers at: assets/music-cover/song1.jpg  etc.
+  Place covers at: assets/music-cover/song1.jpeg  etc.
    ============================================================= */
 
 'use strict';
@@ -17,7 +17,7 @@ const playlist = [
     title:     'Blessed',
     artist:    'Daniel Caesar',
     file:      'music/song1.mp3',
-    cover:     '',
+    cover:     'assets/music-cover/song1.jpeg',
     startTime: 0,       // seconds — where playback begins
     endTime:   null,    // seconds — where it ends/loops (null = full track)
     loopStart: null,    // loop rewind point (null = startTime)
